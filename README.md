@@ -1,2 +1,2 @@
 # Linux
-Linux操作系统
+Linux相关
