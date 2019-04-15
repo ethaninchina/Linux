@@ -1,5 +1,5 @@
 ### 使用命令curl获取http状态码
-- 获取域名baidu.com（对于http、https均适用）返回的状态码
+- 获取域名baidu.com（对于http、https、重定向均适用）返回的状态码
 ```
 # curl -I -L -s --connect-timeout 5 -m 5 -o /dev/null -w %{http_code} baidu.com
 ```
